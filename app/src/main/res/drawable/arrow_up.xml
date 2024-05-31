@@ -1,0 +1,11 @@
+<!-- arrow_up.xml
+Image for the up arrow, used in the Game Activity
+Created by: Gabe Shores
+Created on: 2/26/24,
+Assignment/Project: A290 Android Development Final Project
+-->
+<vector android:height="50dp" android:tint="#FFFFFF"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="50dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@android:color/white" android:pathData="M7.41,15.41L12,10.83l4.59,4.58L18,14l-6,-6 -6,6z"/>
+</vector>

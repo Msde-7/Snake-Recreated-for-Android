@@ -1,0 +1,37 @@
+<!-- strings.xml
+Contains strings for the app
+Created by: Gabe Shores
+Created on: 2/24/24,
+Last Modified by: Gabe Shores
+Last Modified on: 2/29/24 ~ Edited txt_AboutInfo
+Assignment/Project: A290 Android Development Final Project
+-->
+<resources>
+
+    <!--Main activity strings-->
+    <string name="app_name">Snake</string>
+    <string name="txt_SnakeTitle">Snake</string>
+    <string name="txt_HighScoreMain">High Score: 0</string>
+    <string name="btn_Play">Play</string>
+    <string name="btn_Themes">Themes</string>
+    <string name="btn_About">About</string>
+    <string name="btn_Exit">Exit</string>
+    <string name="txt_Attribution">By Gabe Shores</string>
+
+    <!--About section strings-->
+    <string name="lbl_AboutTitle">About</string>
+    <string name="txt_AboutInfo">Welcome to Snake! Use the navigational arrows at the bottom of the screen in order to move the Snake around. Eat apples in order to grow your Snake and gain points. Avoid hitting yourself or the wall and try to stay alive as long as possible! Also, access the Themes section in the menu to change the colors of your game!</string>
+
+    <!--Theme section strings-->
+    <string name="lbl_ThemesTitle">Select your theme below</string>
+    <string name="rdo_Default">Default</string>
+    <string name="rdo_GameBoy">GameBoy</string>
+    <string name="rdo_BlackWhite">Black and White</string>
+    <string name="rdo_Halloween">Halloween</string>
+    <string name="rdo_IU">Indiana University</string>
+    <string name="rdo_BlackYellow">Black and Yellow</string>
+
+    <!--Game section strings-->
+    <string name="txt_CurScore">0</string>
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml
+Layout file for main section of the app, displaying the home screen and different buttons
+Created by: Gabe Shores
+Created on: 2/24/24,
+Last Modified by: Gabe Shores
+Last Modified on: 2/29/24 ~ Comments added
+Assignment/Project: A290 Android Development Final Project
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <!--Displays the title of the app on the home screen-->
+    <TextView
+        android:id="@+id/txt_SnakeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="@string/txt_SnakeTitle"
+        android:textColor="@color/default_apple"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--Brings the user to the Game Activity when clicked-->
+    <Button
+        android:id="@+id/btn_Play"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/default_snake"
+        android:text="@string/btn_Play"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_HighScoreMain" />
+
+    <!--Brings the user to the About Activity when clicked-->
+    <Button
+        android:id="@+id/btn_About"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/default_snake"
+        android:text="@string/btn_About"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Themes" />
+
+    <!--Exits the app when clicked-->
+    <Button
+        android:id="@+id/btn_Exit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/default_snake"
+        android:text="@string/btn_Exit"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_About" />
+
+    <!--Brings the user to the Themes Activity when clicked-->
+    <Button
+        android:id="@+id/btn_Themes"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/default_snake"
+        android:text="@string/btn_Themes"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Play" />
+
+    <!--Gives attribution to the developer!-->
+    <TextView
+        android:id="@+id/txt_Attribution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/txt_Attribution"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--Displays the high score from the shared preferences file-->
+    <TextView
+        android:id="@+id/txt_HighScoreMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_HighScoreMain"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_SnakeTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

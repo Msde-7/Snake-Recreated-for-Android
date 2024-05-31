@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_about.xml
+Layout file for the about section describing how to play
+Created by: Gabe Shores
+Created on: 2/24/24,
+Last Modified by: Gabe Shores
+Last Modified on: 2/24/24
+Assignment/Project: A290 Android Development Final Project
+-->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frm_AboutLinearLayout"
+    android:layout_width="match_parent"
+    android:background="@color/default_background"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!--The toolbar. A back button is added in AboutActivity.java-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbr_About"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black"
+        app:title="@string/lbl_AboutTitle"
+        app:titleTextColor="@color/default_snake" />
+
+    <!--The textview displaying how to play the game-->
+    <TextView
+        android:id="@+id/txt_AboutText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/txt_AboutInfo"
+        android:textColor="@color/white" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,17 @@
+<!-- themes.xml
+Main theme file for this application
+Created by: Gabe Shores
+Created on: 2/24/24,
+Last Modified by: Gabe Shores
+Last Modified on: 2/24/24 ~ changed primary color
+Assignment/Project: A290 Android Development Final Project
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FinalProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/default_apple</item>
+    </style>
+
+    <style name="Theme.FinalProject" parent="Base.Theme.FinalProject" />
+</resources>

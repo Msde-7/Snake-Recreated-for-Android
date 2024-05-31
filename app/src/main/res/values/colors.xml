@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- colors.xml
+Color file for the whole app.Also contains the themes sectioned out
+Themes contain redundant colors but kept for programmatic simplicity when parsing
+Some themes keep the same color for the apple and snake while others differ
+Created by: Gabe Shores
+Created on: 2/24/24,
+Last Modified by: Gabe Shores
+Last Modified on: 2/29/24 ~ Added Halloween theme
+Assignment/Project: A290 Android Development Final Project
+-->
+<resources>
+    <!--Base black and white colors used throughout the app and in black white theme-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Default colors used for app styling and default theme-->
+    <color name="default_apple">#E40303</color>
+    <color name="default_snake">#4AE91E</color>
+    <color name="default_background">#171717</color>
+
+    <!--Colors for GameBoy theme-->
+    <color name="gameBoy_apple">#0f380f</color>
+    <color name="gameBoy_snake">#0f380f</color>
+    <color name="gameBoy_background">#8bac0f</color>
+
+    <!--Colors for IU theme-->
+    <color name="IU_apple">#FFD700</color>
+    <color name="IU_snake">#990000</color>
+    <color name="IU_background">#EEEDEB</color>
+
+    <!--Colors for Halloween theme-->
+    <color name="halloween_apple">#1B7604</color>
+    <color name="halloween_snake">#FF000000</color>
+    <color name="halloween_background">#ff4d01</color>
+
+    <!--Colors for Black and Yellow theme-->
+    <color name="blackYellow_apple">#FF000000</color>
+    <color name="blackYellow_snake">#FF000000</color>
+    <color name="blackYellow_background">#f9e266</color>
+
+</resources>

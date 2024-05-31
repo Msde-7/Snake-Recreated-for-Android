@@ -1,0 +1,14 @@
+<!-- themes.xml
+Unused dark theme for this app
+Created by: Gabe Shores
+Created on: 2/24/24,
+Assignment/Project: A290 Android Development Final Project
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FinalProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

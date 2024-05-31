@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- backup_rules.xml
+Backup rules for this file, unchanged
+Created by: Gabe Shores
+Created on: 2/24/24,
+Assignment/Project: A290 Android Development Final Project
+-->
+<full-backup-content>
+    <!--
+   <include domain="sharedpref" path="."/>
+   <exclude domain="sharedpref" path="device.xml"/>
+-->
+</full-backup-content>
